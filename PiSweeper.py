@@ -1,5 +1,5 @@
 import random  # Used to randomly place mines on the board
-import tkinter as tk  # Used to create the graphical user interface for the Minesweeper game
+import tkinter as tk  # Used to create the graphical user interface for the game
 
 # Function to create the initial game board with mines placed randomly
 def create_board(rows, cols, mines):
@@ -158,7 +158,7 @@ def choose_difficulty():
     def start_game(size, mines):
         nonlocal root
         root.destroy()  # Close the difficulty selection window
-        play_minesweeper(size, mines)  # Start the game with selected parameters
+        play_pisweeper(size, mines)  # Start the game with selected parameters
 
     root = tk.Tk()  # Initialize the difficulty selection window
     root.title("Choose Difficulty")  # Set the window title
@@ -171,8 +171,8 @@ def choose_difficulty():
 
     root.mainloop()  # Start the Tkinter event loop to keep the window active
 
-# Initialize the Minesweeper game in a GUI
-def play_minesweeper(board_size, mines):
+# Initialize the pisweeper game in a GUI
+def play_pisweeper(board_size, mines):
     global board, mine_positions, visible_board, buttons, status_label, rows, cols, root, game_over
 
     rows, cols = board_size  # Extract rows and columns from the board size tuple
@@ -181,7 +181,7 @@ def play_minesweeper(board_size, mines):
     visible_board = [[' ' for _ in range(cols)] for _ in range(rows)]  # Create the visible board (all cells unrevealed)
 
     root = tk.Tk()  # Create the main game window
-    root.title("Minesweeper")  # Set the window title
+    root.title("pisweeper")  # Set the window title
 
     buttons = [[None for _ in range(cols)] for _ in range(rows)]  # Create a grid for the buttons
 
