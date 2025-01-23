@@ -43,7 +43,8 @@ PiSweeper is a Python-based Minesweeper clone built with a graphical interface u
 
 ![Start](https://github.com/user-attachments/assets/27fcb6c2-639d-4d3f-b07a-926d5d012c25)
 
-![Won game - some flagged - mined cells left visible](https://github.com/user-attachments/assets/4b60d7e0-d162-4b80-b1a7-882cac599bb4)
+![Won game - some flagged - mined cells left visible](https://github.com/user-attachments/assets/699205a7-9502-4958-86de-62364c3fc8da)
+
 
 
 ## Contributing
