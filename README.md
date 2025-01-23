@@ -1,6 +1,6 @@
 # PiSweeper
 
-PiSweeper is a Python-based Minesweeper game built with a graphical interface using Tkinter. It's a fun and engaging way to enjoy the classic game of Minesweeper right on your desktop!
+PiSweeper is a Python-based Minesweeper clone built with a graphical interface using Tkinter. It's a fun and engaging way to enjoy the classic game of Minesweeper right on your desktop!
 
 ## Features
 
