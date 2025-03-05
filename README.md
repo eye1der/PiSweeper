@@ -1,6 +1,10 @@
 # PiSweeper
 
-PiSweeper is a Python-based Minesweeper clone built with a graphical interface using Tkinter. It's a fun and engaging way to enjoy the classic game of Minesweeper right on your desktop!
+PiSweeper is a Python-based Minesweeper clone built with a graphical interface using Tkinter.
+
+**How is it different? Just like the original version it has the Smart Number Reveal feature.** No other clones have this to my knowledge  
+
+It's a fun and engaging way to enjoy the classic game of Minesweeper right on your desktop!
 
 ## Features
 
